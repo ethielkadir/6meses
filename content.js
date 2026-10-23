@@ -32,7 +32,7 @@ const CONFIG = {
       memory: "Algo que siempre recordare fue cuando teniamos pena y nos reiamos mientras estabamos juntos haciendo eso JSJASJJASJAS.",
       giftTitle: "Un recuerdo nuestro",
       giftCaption: "Esta foto me encantó desde el primer momento que la vi, de verdad que fue muy especial, tanto que la tengo en todos lados, me parecio algo lindo y especial, me encantó, asi como me encantas tu.",
-      gift: { type: "image", value: "assets/gifts/regalo-2.jpg" }
+      gift: { type: "image", value: "regalo-2.jpg" }
     },
     {
       title: "Mi Lugarsito",
@@ -42,7 +42,7 @@ const CONFIG = {
       memory: "Contigo lo tengo todo, y si te pierdo, ese evento se volvería mi perdicción, eres lo que necesito siempre. ",
       giftTitle: "Un pedacito de mi",
       giftCaption: "Mi amor, yo no te necesito para nada, pero te quiero para todo siempre y para siempre.",
-      gift: { type: "image", value: "assets/gifts/regalo-3.jpg" }
+      gift: { type: "image", value: "regalo-3.jpg" }
     },
     {
       title: "Si Pudiera pedir un Deseo",
@@ -64,7 +64,7 @@ const CONFIG = {
       giftTitle: "Otra página de nuestra historia",
       giftDescription: "Una foto más para nuestra pequeña colección de recuerdos.",
       giftCaption: "Recuerdas esto mi amor? Cuando planeabamos nuestro proximo destino jsjsjs, como te amo.",
-      gift: { type: "image", value: "assets/gifts/regalo-5.jpg" }
+      gift: { type: "image", value: "regalo-5.jpg" }
     },
     {
       title: "Nuestro siguiente capítulo",
