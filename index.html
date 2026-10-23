@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d2c">
+  <meta name="description" content="Una aventura creada con amor para celebrar seis meses juntos.">
+  <title>6 MESES — KxJ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sky sky--one" aria-hidden="true"></div>
+  <div class="sky sky--two" aria-hidden="true"></div>
+  <div class="moon" aria-hidden="true"><span></span></div>
+  <div class="shooting-star shooting-star--one" aria-hidden="true"></div>
+  <div class="shooting-star shooting-star--two" aria-hidden="true"></div>
+  <div class="horizon horizon--back" aria-hidden="true"></div>
+  <div class="horizon horizon--front" aria-hidden="true"></div>
+  <div class="sparkles" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <button class="brand" id="brand-home" type="button" aria-label="Ir al inicio">
+      <span class="brand-mark">✦</span>
+      <span><strong>6 MESES MÁS?</strong><small>UNA HISTORIA DE AMOR REAL</small></span>
+    </button>
+    <div class="header-right">
+      <span class="header-note"><span class="live-dot"></span> UNA HISTORIA PERFECTA PARA CONTAR</span>
+      <div class="mini-progress" aria-label="Progreso de la aventura"><span id="header-progress"></span></div>
+    </div>
+  </header>
+
+  <main id="app" class="app-shell" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <span>HECHO CON AMOR, SOLO PARA TI</span>
+    <span>✧ 06 · ∞ ✧</span>
+  </footer>
+
+  <div class="modal-backdrop" id="gift-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="gift-modal-card">
+      <button class="modal-close" id="modal-close" type="button" aria-label="Cerrar regalo">×</button>
+      <p class="eyebrow">UN RECUERDO PARA GUARDAR</p>
+      <h2 id="modal-title">Tu regalo</h2>
+      <div class="gift-image-frame">
+        <img id="gift-image" alt="Una foto especial para ti">
+        <div class="image-fallback" id="image-fallback" hidden>
+          <span class="fallback-star">✧</span>
+          <strong>Este recuerdo todavía está esperando.</strong>
+          <p>Coloca tu foto en <code>assets/gifts/</code> y revisa el nombre del archivo en <code>script.js</code>.</p>
+        </div>
+      </div>
+      <p class="modal-caption" id="modal-caption"></p>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
